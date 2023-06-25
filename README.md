@@ -40,4 +40,27 @@ git clone https://github.com/izCRV/Alakazam
 ```
 
 
+# Usage
 
+At the root of the repo type:
+
+```
+node alakazam.js
+```
+
+Wait, then enter the global event you wish to track (e.g. Transfer or transaction_executed) and the starting block (the further away from the event, the longer it will take for the interface to load; for transfere start from 1630 and for transaction_executed from 1350).
+
+Normally everything should work and the interface should be available locally at: http://localhost:4000
+
+Beware of potential port conflicts on the 3000 and 4000 if you are already using them.
+
+
+# Other 
+
+Project for Pragma's hackaton.
+
+Apply for the Checkpoint and Madara awards.
+
+Ckeckpoint because the back uses it for data indexing.
+
+Madara because in a medium/long-term vision, many layers will be deployed via Madara, and by integrating it into the stack it would be possible to reference most of Starknet's subnet (all Ln).
