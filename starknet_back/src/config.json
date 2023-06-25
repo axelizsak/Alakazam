@@ -1,0 +1,10 @@
+{
+  "network_node_url": "https://starknet-mainnet.blastapi.io/8ec19d66-9ad6-4ccb-8a90-8451a52bdc93",
+  "start": 1350,
+  "global_events": [
+    {
+      "name": "transaction_executed",
+      "fn": "handle_global_event"
+    }
+  ]
+}

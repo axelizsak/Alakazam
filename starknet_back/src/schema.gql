@@ -1,0 +1,11 @@
+type Data {
+  id: String!
+  nb_block: Int!
+  starknet_block: Int!
+  eventCount: Int!
+  goerli_block: Int!
+  shrgn_alice_block: Int!
+  shrgn_bob_block: Int!
+  shrgn_dave_block: Int!
+  shrgn_ferdie_block: Int!
+}
