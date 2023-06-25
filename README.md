@@ -4,6 +4,7 @@ Alakazam has two aims: to list and index. Alakazam is an interface that lets you
 
 # Warning
 
+Local version only, soon to be available in an even easier-to-use online version.
 The project is only at the proof-of-concept stage, everything remains to be done and very few functions are available. Currently you can index any global event on starknet's main network from a given block. Tip: if you choose "transaction_executed" start from block 1350 or if you choose "Transfer" start from block 1630. Starting from a block far away from the event you're tracking, the interface may take some time to load.
 
 # Installation
